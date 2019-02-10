@@ -50,7 +50,7 @@
       price: '15 $',
     },
     the_pillars_of_the_earth: {
-      title: 'the Pillars of the Earth',
+      title: 'The Pillars of the Earth',
       language: 'English',
       author: 'Ken Follett',
       publisher: 'Mc Millan',
@@ -59,7 +59,7 @@
     },
     le_bebe: {
       id: 'le_bebe',
-      title: 'le b\u00e9b\u00e9',
+      title: 'Le B\u00e9b\u00e9',
       language: 'French',
       author: 'Marie Darrieussecq',
       publisher: 'POL',
@@ -95,7 +95,7 @@
     },
     le_black_note: {
       id: 'le_black_note',
-      title: 'le Black Note',
+      title: 'Le Black Note',
       language: 'French',
       author: 'Tanguy Viel',
       publisher: 'Les \u00e9ditions de minuit',
