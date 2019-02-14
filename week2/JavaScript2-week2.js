@@ -73,26 +73,24 @@ var tasks = [monday, tuesday];
 var result = tasks
   .reduce(function(taskGroup, current) {
     return taskGroup.concat(current);
-
-    // convert task duration from minutes to hours
   })
+  // convert task duration from minutes to hours
   .map(function(task) {
     return task.duration / 60;
-
-    // filter the tasks longer than 2 hours
   })
+  // filter tasks longer than 2 hours
   .filter(function(duration) {
     return duration >= 2;
-    //  calculate the fee for each long task
   })
+  // calculate the fee for each long task
   .map(function(duration) {
     return duration * 20;
-    // calculate the total fee
   })
+  // calculate the total fee
   .reduce(function(taskGroup, current) {
     return [+taskGroup + +current];
-    // insert the dollar currency sign before the total fee
   })
+  // insert the dollar currency sign before the total fee
   .map(function(dollar_amount) {
     return '$' + dollar_amount.toFixed(2);
   })
@@ -103,7 +101,7 @@ var result = tasks
 
 console.log(result);
 
-// EXPLAINATION HERE
+// EXPLANATION HERE
 // https://code.tutsplus.com/tutorials/how-to-use-map-filter-reduce-in-javascript--cms-26209
 
 // MORE HERE
